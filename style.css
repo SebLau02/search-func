@@ -1,0 +1,37 @@
+*,
+::before,
+::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	font-family: sans-serif;
+}
+h3 {
+	margin: 1vmax;
+}
+
+.container {
+	margin: 10vmax auto;
+	width: auto;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.search-bar,
+.search-bar-tow {
+	width: 30vmax;
+	height: 3vmax;
+	border-radius: 1vmax;
+	padding: 1vmax;
+}
+.result,
+.result-tow {
+	width: 30vmax;
+	height: auto;
+	margin-top: 2vmax;
+}
